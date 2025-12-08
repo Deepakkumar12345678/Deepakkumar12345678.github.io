@@ -246,7 +246,16 @@ async function loadAdminMessage(){
     const fmt = new Intl.DateTimeFormat('hi-IN', { dateStyle: 'long', timeStyle: 'short' });
     msgTimeEl.textContent = fmt.format(ts);
   } catch(err){
-    adminMessageEl.textContent = "Admin message नहीं मिला। Admin messages.json को repo में डालें।";
+    adminMessageEl.textContent = "नमस्कार और आप सभी का हार्दिक स्वागत है!
+मैं दीपक कुमार आप सबका दिल से अभिनंदन करता हूँ।
+
+आपका यहाँ आना हमारे लिए सम्मान की बात है।
+उम्मीद है कि यह पल आपके लिए सुखद, प्रेरणादायक और यादगार साबित होगा।
+
+आइए, मुस्कुराहट के साथ इस खूबसूरत सफर की शुरुआत करें।
+आपकी उपस्थिति हमारे लिए ऊर्जा और उत्साह का स्रोत है।
+
+धन्यवाद!";
     msgTimeEl.textContent = "";
   }
 }
